@@ -15,3 +15,5 @@ Still confused? Refer to <cite>[this breakdown](https://time-and-calendar.com/le
 
 ## Hints
 - use an `if` statement and `&&` to make sure all the conditions are met properly
+
+npm test leapYears.spec.js

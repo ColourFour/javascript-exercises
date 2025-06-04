@@ -1,11 +1,11 @@
-const removeFromArray = function([a],b) {
-    let start = a.length;
-    for (i = 1; i< (start + 1); i++){
-        if (a.i == b){
+const removeFromArray = function(a,...b) {
+    for (i = a.length - 1; i>= 0; i--) 
+        for( z = 0; z<b.length; z++){
+        if (a[i] === b[z]){
             a.splice(i, 1);
     }
-    return [a];
 }
+    return a;
 }
 
 // Do not edit below this line
